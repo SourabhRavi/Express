@@ -68,11 +68,14 @@ function trending() {
 
             const url = obj.images.fixed_width_downsampled.url
             const width = obj.images.fixed_width_downsampled.width
+            const height = obj.images.fixed_width_downsampled.height
+            const usedHeight = (0.5 * height)
             const alt = obj.title
             resultsHTML += `<div class="content">
             <a href="` + url + `" target="_blank">
-              <div class="content-overlay"></div>
-              <img class="content-image" src="` + url + `">
+              <div class="content-overlay" style="height=` + usedHeight + `px;"></div>
+              <img class="content-image" src="` + url + `">   
+              
               <div class="content-details fadeIn">
                 <h3 class="content-title">` + alt + `</h3>
               </div>
