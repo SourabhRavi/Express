@@ -3,6 +3,7 @@ const searchString = document.getElementById('searchString')
 const resultsEl = document.getElementById('results')
 
 searchForm.addEventListener('submit', function(e) {
+    e.preventDefault()
     const q = searchString.value.trim()
     console.log(q)
     search(q)
