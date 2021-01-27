@@ -145,9 +145,9 @@ body {
 /* GIF Results */
 
 .container {
-    line-height: 40px;
     column-count: 5;
     margin: 30px;
+    border-bottom: 30px;
 }
 
 *,
@@ -170,12 +170,12 @@ body {
 .content .content-overlay {
     background: rgba(253, 152, 0, 0.7);
     position: absolute;
-    height: 92%;
     width: 100%;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
+    margin: 10px 0;
     opacity: 0;
     overflow: hidden;
     -webkit-transition: all 0.4s ease-in-out 0s;
@@ -185,11 +185,13 @@ body {
 
 .content:hover .content-overlay {
     opacity: 1;
+    margin: 10px 0;
 }
 
 .content-image {
     width: 100%;
     height: auto;
+    margin: 10px 0;
 }
 
 .content-details {
