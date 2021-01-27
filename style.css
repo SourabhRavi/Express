@@ -116,29 +116,9 @@ body {
     margin: 20px 0 20px 0;
     border: 3px solid #FD9800;
     box-sizing: border-box;
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px;
     text-align: left;
     font-size: 18px;
-}
-
-.searchForm button {
-    font-size: 18px;
-    width: 80px;
-    height: 40px;
-    border-radius: 0 15px 15px 0;
-    border: none;
-    background: #FD9800;
-    color: #fff;
-}
-
-.searchForm button:hover {
-    background: #fff;
-    color: #FD9800;
-    border: 3px solid #FD9800;
-}
-
-.searchForm button:active {
-    background: #662C91;
 }
 
 
