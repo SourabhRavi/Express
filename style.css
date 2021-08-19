@@ -124,7 +124,7 @@ button {
     width: 50%;
     height: 40px;
     padding: 25px;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 30px 0;
     border: 3px solid #2953ca;
     box-sizing: border-box;
     border-radius: 15px;
@@ -137,8 +137,7 @@ button {
 
 .container {
     column-count: 5;
-    margin: 30px;
-    border-bottom: 30px;
+    margin: 0 30px 30px;
 }
 
 *,
@@ -275,6 +274,11 @@ a.github i:hover {
     #brandLogo img {
         max-width: 30px;
     }
+
+    .searchForm input {
+        margin: 30px 0 30px 0;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -291,11 +295,14 @@ a.github i:hover {
     }
 
     .searchForm input {
-        margin: 30px 0 20px 0;
         padding: 20px;
     }
 
     .brand-title ul {
         margin-left: 10px;
+    }
+
+    .searchForm input {
+        margin: 20px 0 10px 0;
     }
 }
