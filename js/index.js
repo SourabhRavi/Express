@@ -18,7 +18,6 @@ searchString.addEventListener('input', function (e) {
   }
 })
 
-
 function search(q) {
   const apikey = 'ftUwVbVYCio80g6YwUCyTUIyy0vs6QKP'
   const path = 'https://api.giphy.com/v1/gifs/search?api_key=' + apikey + '&q=' + q + '&limit=50'
