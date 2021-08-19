@@ -11,18 +11,21 @@
 body {
     margin: 0;
     padding: 0;
-    background: #181818;
+    background: #fafafa;
 }
 
 
 /* Navigation Bar */
+button {
+    cursor: pointer;
+}
 
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #FD9800;
+    background-color: #2953ca;
     font-family: 'Righteous', cursive;
     font-size: 1.5rem;
     letter-spacing: 0.11em;
@@ -61,6 +64,9 @@ body {
     font-size: 2.3rem;
 }
 
+#brandLogo img {
+    max-width: 50px;
+}
 
 /* Hamburger menu icon */
 
@@ -89,14 +95,14 @@ body {
     padding: 0.7rem 1.3rem;
     border: none;
     background: #fff;
-    color: #FD9800;
+    color: #2953ca;
     font-family: 'Righteous', cursive;
     font-size: 1.2rem;
     letter-spacing: 0.11em;
 }
 
 .navbar-links li button:hover {
-    background: #FD9800;
+    background: #2953ca;
     color: #fff;
     outline: 3px solid #fff;
     outline-offset: -3px;
@@ -112,9 +118,9 @@ body {
 .searchForm input {
     width: 50%;
     height: 40px;
-    padding: 10px;
+    padding: 25px;
     margin: 20px 0 20px 0;
-    border: 3px solid #FD9800;
+    border: 3px solid #2953ca;
     box-sizing: border-box;
     border-radius: 15px;
     text-align: left;
@@ -148,7 +154,7 @@ body {
 }
 
 .content .content-overlay {
-    background: rgba(253, 152, 0, 0.7);
+    background: rgba(41, 83, 202, 0.7);
     position: absolute;
     width: 100%;
     left: 0;
@@ -161,6 +167,7 @@ body {
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
+    height: 98.8%;
 }
 
 .content:hover .content-overlay {
@@ -171,7 +178,7 @@ body {
 .content-image {
     width: 100%;
     height: auto;
-    margin: 10px 0;
+    margin: 0 0 10px;
 }
 
 .content-details {
@@ -208,6 +215,45 @@ body {
 .fadeIn {
     top: 50%;
 }
+
+.content-image {
+    border: 2px solid #2953ca;
+}
+
+.content {
+    margin: 0 auto 10px;
+}
+
+.content .content-overlay,
+.content-image,
+.content:hover .content-overlay {
+    margin: 0;
+}
+
+footer {
+    background: #2953ca;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer i {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p.description {
+    margin-top: 10px;
+}
+
+a.github i {
+    color: #fff;
+}
+
+a.github i:hover {
+    color: #FFE601;
+}
+
 
 @media screen and (max-width: 768px) {
     .container {
